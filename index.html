@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SharedArrayBuffer test</title>
+</head>
+<body>
+<header>
+<p id="prompt">Testing...</p>
+</header>
+<script>
+    try {
+        let test = new SharedArrayBuffer(1);
+        document.getElementById("prompt").innerHTML = "SharedArrayBuffer OK";
+    } catch(error) {
+        document.getElementById("prompt").innerHTML = "SharedArrayBuffer not available.";
+    }
+</script>
+</body>
+</html>
