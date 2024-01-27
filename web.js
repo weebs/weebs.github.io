@@ -18,9 +18,16 @@ const LAYOUT_CONFIG_KEY = 'layoutConfig';
 
 const initialProgram =
 `
-let items = System.Collections.Generic.List<int>()
-items.Add(1)
-printfn "hello"`
+let code () =
+    let items = System.Collections.Generic.List<int>()
+    for i in 1..100 do
+        items.Add(i * 2)
+    items.Add(101)
+    printfn "hello"
+    for i in 0..items.Length - 1 do
+        printfn $"items[{i}] = {items[i]}"
+code ()
+`    
 
 // Golden Layout
 let layout = null;
