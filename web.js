@@ -17,13 +17,33 @@
 const LAYOUT_CONFIG_KEY = 'layoutConfig';
 
 const initialProgram =
-`let items = System.Collections.Generic.List<int>()
-items.Add(1)
-printfn "hello"
 `
+let items = System.Collections.Generic.List<int>()
+items.Add(1)
+printfn "hello"`
 
 // Golden Layout
 let layout = null;
+let asmEditor = null;
+window.asmEditor = asmEditor;
+function AsmEditorComponent(container, state) {
+  asmEditor = ace.edit(container.getElement()[0]);
+  asmEditor.session.setMode('ace/mode/c_cpp');
+  asmEditor.setOption('fontSize', `${state.fontSize || 18}px`);
+  asmEditor.setReadOnly(true);
+
+  container.on('fontSizeChanged', fontSize => {
+    container.extendState({fontSize});
+    asmEditor.setFontSize(`${fontSize}px`);
+  });
+  container.on('resize', debounceLazy(event => asmEditor.resize(), 20));
+  container.on('destroy', event => {
+    if (asmEditor) {
+      asmEditor.destroy();
+      asmEditor = null;
+    }
+  });
+}
 
 function initLayout() {
   const defaultLayoutConfig = {
@@ -38,14 +58,15 @@ function initLayout() {
         componentName: 'editor',
         componentState: {fontSize: 18, value: initialProgram},
       }, {
-        type: 'stack',
+        type: 'column',
         content: [{
           type: 'component',
           componentName: 'terminal',
           componentState: {fontSize: 18},
         }, {
           type: 'component',
-          componentName: 'canvas',
+          componentName: 'Fable C',
+          componentState: {fontSize: 18, value: 'asdf'}
         }]
       }]
     }]
@@ -66,6 +87,7 @@ function initLayout() {
   });
 
   layout.registerComponent('canvas', CanvasComponent);
+  layout.registerComponent('asmEditor', AsmEditorComponent);
   layout.init();
 }
 
@@ -79,8 +101,10 @@ function resetLayout() {
 }
 
 // Toolbar stuff
-$('#reset').on('click', event => { if (confirm('really reset?')) resetLayout() });
-$('#run').on('click', event => run(editor));
+// $('#reset').on('click', event => { if (confirm('really reset?')) resetLayout() });
+$('#run').on('click', event => {
+  run(editor)
+});
 
 
 initLayout();
