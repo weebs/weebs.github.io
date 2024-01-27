@@ -87,7 +87,7 @@ function initLayout() {
   });
 
   layout.registerComponent('canvas', CanvasComponent);
-  layout.registerComponent('asmEditor', AsmEditorComponent);
+  layout.registerComponent('Fable C', AsmEditorComponent);
   layout.init();
 }
 
