@@ -61,12 +61,12 @@ function initLayout() {
         type: 'column',
         content: [{
           type: 'component',
-          componentName: 'terminal',
-          componentState: {fontSize: 18},
-        }, {
-          type: 'component',
           componentName: 'Fable C',
           componentState: {fontSize: 18, value: 'asdf'}
+        }, {
+          type: 'component',
+          componentName: 'terminal',
+          componentState: {fontSize: 18},
         }]
       }]
     }]
