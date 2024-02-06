@@ -229,7 +229,7 @@ class WorkerAPI {
     window.build(contents, (compiledCode) => {
       let withMain = compiledCode + `
 int main() { Program_fs(); return 0; }`
-      console.log(withMain);
+      // console.log(withMain);
       asmEditor.setValue(withMain);
       asmEditor.clearSelection();
       this.port.postMessage({id: 'compileLinkRun', data: withMain});
