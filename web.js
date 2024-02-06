@@ -24,8 +24,9 @@ let code () =
         items.Add(i * 2)
     items.Add(11)
     printfn "hello"
-    for i in 0..items.Length - 1 do
+    for i in 0..items.Count - 1 do
         printfn $"items[{i}] = {items[i]}"
+
 code ()
 `    
 
