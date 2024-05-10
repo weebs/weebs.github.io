@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Web",
   "resources": {
-    "hash": "sha256-ngcXhVI1RgkJeR/AkoUcntYhHnzLynJrco+pm/zI+1Q=",
+    "hash": "sha256-BltPFHv7c4UG7lRckCfqbtFDyX/xNneBmT+affeUgnw=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.lf43gz7zrt.js": "sha256-LmOVfFRWLdDNXO8at97kDu0LxdyL3iPY5hNs2lvphmY="
     },
@@ -47,7 +47,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-opoh5mb9g1OUt3obpwrrOvmcQ+5UbUJPcBRMoP63AhU=",
       "Microsoft.JSInterop.wasm": "sha256-lXwhdv0Is9FMH/j0+WH3zoNWAGLbVaONtGucJ/4URQ0=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-CQVLCKiSxLN5ghyJZG3mhnMGRROdqrbNUjtAXB0nWb8=",
-      "Mon.wasm": "sha256-NX6sx1CVlbYu26B70n+kjOar7ZPbaNlrGpUJFZ8nKe0=",
+      "Mon.wasm": "sha256-nRwZyN+XwFDFrO61oNw9NsBj5lN8hY/90IKzt6Du6Hs=",
       "netstandard.wasm": "sha256-b6m5sDaeyiMwwUTqr2aV/OExLIUmRyYPQU6M1n6t6RA=",
       "SixLabors.ImageSharp.wasm": "sha256-wruBLkPQeATczo1KPYIC6K948ERwv35OT7uG1HmPfDY=",
       "Spectre.Console.ImageSharp.wasm": "sha256-kNYz7f/Ky8qjThMzteE4rYgbQ1IvqDJ6KQYW7Py0llA=",
@@ -120,7 +120,7 @@
       "System.wasm": "sha256-QpEtKUeEnu53NT1hu+oIgTneRUGHtBja2XUjK1bkP3w=",
       "System.Xml.Linq.wasm": "sha256-gRKk8ebp2VngVoUhBBgS+G4PRxh+AIKj/6bAKlORouk=",
       "System.Xml.XDocument.wasm": "sha256-XWfL4Dq5ZE6vGeOMIT85jIGt/MAyCQI8mg/Piee/ROw=",
-      "Web.wasm": "sha256-HmwGzaYQAEIAOsZdddXzr6neO1AyQuMM/gFddf3DsvM="
+      "Web.wasm": "sha256-QzWJ8RsBEdqCPTp/CY4ohO2sWlVn2QPERBKShFIkGEw="
     },
     "satelliteResources": {
       "cs": {
