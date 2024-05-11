@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Web",
   "resources": {
-    "hash": "sha256-A2I7OiHi7LXw1p4qu7COl7L7psApcLku60fZ3MnIk9k=",
+    "hash": "sha256-pHQpFZBfWcp9oo57gktTGNLe4YJQ/CbNPyAqC2j2sEo=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.lf43gz7zrt.js": "sha256-LmOVfFRWLdDNXO8at97kDu0LxdyL3iPY5hNs2lvphmY="
     },
@@ -120,7 +120,7 @@
       "System.wasm": "sha256-QpEtKUeEnu53NT1hu+oIgTneRUGHtBja2XUjK1bkP3w=",
       "System.Xml.Linq.wasm": "sha256-gRKk8ebp2VngVoUhBBgS+G4PRxh+AIKj/6bAKlORouk=",
       "System.Xml.XDocument.wasm": "sha256-XWfL4Dq5ZE6vGeOMIT85jIGt/MAyCQI8mg/Piee/ROw=",
-      "Web.wasm": "sha256-A59ODbNGl33QhLb3B1aIGZoqDDcFC+MxULTMZ0+QQ1U="
+      "Web.wasm": "sha256-yx0amrfBI6hS1Z+Xt7aYuNcKIwXjYbmh72sr5qVNF3o="
     },
     "satelliteResources": {
       "cs": {
