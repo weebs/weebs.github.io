@@ -264,11 +264,11 @@ const api = new WorkerAPI();
 
 
 // ServiceWorker stuff
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('./service_worker.js')
-  .then(reg => {
-    console.log('Registration succeeded. Scope is ' + reg.scope);
-  }).catch(error => {
-    console.log('Registration failed with ' + error);
-  });
-}
+// if (navigator.serviceWorker) {
+//   navigator.serviceWorker.register('./service_worker.js')
+//   .then(reg => {
+//     console.log('Registration succeeded. Scope is ' + reg.scope);
+//   }).catch(error => {
+//     console.log('Registration failed with ' + error);
+//   });
+// }
