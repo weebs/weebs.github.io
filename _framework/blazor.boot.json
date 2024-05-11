@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Web",
   "resources": {
-    "hash": "sha256-BltPFHv7c4UG7lRckCfqbtFDyX/xNneBmT+affeUgnw=",
+    "hash": "sha256-A2I7OiHi7LXw1p4qu7COl7L7psApcLku60fZ3MnIk9k=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.lf43gz7zrt.js": "sha256-LmOVfFRWLdDNXO8at97kDu0LxdyL3iPY5hNs2lvphmY="
     },
@@ -47,7 +47,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-opoh5mb9g1OUt3obpwrrOvmcQ+5UbUJPcBRMoP63AhU=",
       "Microsoft.JSInterop.wasm": "sha256-lXwhdv0Is9FMH/j0+WH3zoNWAGLbVaONtGucJ/4URQ0=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-CQVLCKiSxLN5ghyJZG3mhnMGRROdqrbNUjtAXB0nWb8=",
-      "Mon.wasm": "sha256-nRwZyN+XwFDFrO61oNw9NsBj5lN8hY/90IKzt6Du6Hs=",
+      "Mon.wasm": "sha256-j7VI0AoCn1Js3xiwEyt1ucxxvw76c+1I9Rla/KqaD3s=",
       "netstandard.wasm": "sha256-b6m5sDaeyiMwwUTqr2aV/OExLIUmRyYPQU6M1n6t6RA=",
       "SixLabors.ImageSharp.wasm": "sha256-wruBLkPQeATczo1KPYIC6K948ERwv35OT7uG1HmPfDY=",
       "Spectre.Console.ImageSharp.wasm": "sha256-kNYz7f/Ky8qjThMzteE4rYgbQ1IvqDJ6KQYW7Py0llA=",
@@ -103,7 +103,7 @@
       "System.Runtime.Loader.wasm": "sha256-iSU0djLZkm/yD1aaOlLtlcMjd6Q+AKmEzxYwh10PFgY=",
       "System.Runtime.Numerics.wasm": "sha256-jDXNpl/lP83l8VGSSyXOT9SVkxTj/kbrYoQWlmcYWDQ=",
       "System.Runtime.Serialization.Formatters.wasm": "sha256-H7sTNLdCc7i4w6UDUs+5xsC7fA6tBjUQqnvOY+sMAM8=",
-      "System.Runtime.wasm": "sha256-MfF8woK6/ow6W25nd/TtcxXD6aY6AlLlra8w5xvptzY=",
+      "System.Runtime.wasm": "sha256-hxIC3kbXNN9b7ozO3zNwYa+uKlY3lhYK9y2qMByxW18=",
       "System.Security.Cryptography.Algorithms.wasm": "sha256-RMdbbgLa1Kb+HZG10AhXQuZKd8eeDmS3TbL7RVR6cUA=",
       "System.Security.Cryptography.Primitives.wasm": "sha256-CLKTGRKtCEoCOHLEGXRU2pLpALcbLBUsdP+JdvVCQQY=",
       "System.Security.Cryptography.wasm": "sha256-ORJRAlBT5KQNPptY9krfWixoE7ClDRQZtgsV+m+9Mks=",
@@ -120,7 +120,7 @@
       "System.wasm": "sha256-QpEtKUeEnu53NT1hu+oIgTneRUGHtBja2XUjK1bkP3w=",
       "System.Xml.Linq.wasm": "sha256-gRKk8ebp2VngVoUhBBgS+G4PRxh+AIKj/6bAKlORouk=",
       "System.Xml.XDocument.wasm": "sha256-XWfL4Dq5ZE6vGeOMIT85jIGt/MAyCQI8mg/Piee/ROw=",
-      "Web.wasm": "sha256-QzWJ8RsBEdqCPTp/CY4ohO2sWlVn2QPERBKShFIkGEw="
+      "Web.wasm": "sha256-A59ODbNGl33QhLb3B1aIGZoqDDcFC+MxULTMZ0+QQ1U="
     },
     "satelliteResources": {
       "cs": {
